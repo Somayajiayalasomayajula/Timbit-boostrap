@@ -17,7 +17,7 @@
 <html lang="en">
 
 <head>
-  <title>TimBIT - Dashboard by NPX</title>
+  <title>TimBIT by NPX</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
@@ -46,17 +46,23 @@
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="nav-item active ">
-              <a class="nav-link" href="#0">
+              <a class="nav-link" href="index.html">
                 <i class="material-icons">launch</i>
                 <p>Launchpad</p>
               </a>
           </li>
           <li class="nav-item   ">
-            <a class="nav-link" href="#0">
+            <a class="nav-link" href="dashboard.html">
               <i class="material-icons">dashboard</i>
               <p>KPI Dashboard</p>
             </a>
           </li>
+          <li class="nav-item   ">
+                <a class="nav-link" href="issues.html">
+                  <i class="material-icons">warning</i>
+                  <p>Review Issues</p>
+                </a>
+              </li>
           <li class="nav-item  ">
             <a class="nav-link" href="#0">
               <i class="material-icons">settings</i>
@@ -71,7 +77,7 @@
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="#">Good Evening Bharath</a>
+            <a class="navbar-brand" href="#">Good Evening Bharath, What would you like to do today?</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -99,9 +105,9 @@
                   </p>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">You have 3 low CPI Issues to address.</a>
-                    <a class="dropdown-item" href="#">You have 7 schedule adherence issues to address.</a>
-                    <a class="dropdown-item" href="#">The BIM Project has escalated a quality issue to you.</a>
+                    <a class="dropdown-item" href="dashboard.html">You have 3 low CPI Issues to address.</a>
+                    <a class="dropdown-item" href="dashboard.html">You have 4 schedule adherence issues to address.</a>
+                    <a class="dropdown-item" href="dashboard.html">You have 1 quality Issue to address.</a>
                 </div>  
               </li>
               <li class="nav-item dropdown">
@@ -135,7 +141,7 @@
                     <!--<i class="fa fa-twitter"></i> -->
                   </div>
                   <p class="card-category">KPI Dashboard </p>
-                  <h3 class="card-title">Review</h3>
+                  <a href="dashboard.html"><h3 class="card-title">Review</h3></a>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
@@ -148,10 +154,10 @@
               <div class="card card-stats">
                 <div class="card-header card-header-danger card-header-icon">
                   <div class="card-icon">
-                    <i class="material-icons">info_outline</i>
+                    <i class="material-icons">warning</i>
                   </div>
                   <p class="card-category">Escalated Issues</p>
-                  <h3 class="card-title">Solve</h3>
+                  <a href="issues.html"><h3 class="card-title">Solve</h3></a>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
